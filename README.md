@@ -35,6 +35,14 @@ SCRIPTS to run:
 3. GRANT ALL PRIVILEGES ON products TO products_user;
 4. GRANT USAGE, SELECT ON SEQUENCE products_id_seq TO products_user;
 
+# TO RUN PROGRAM
+
+1. Download and install software
+2. Start PostgreSQL server
+3. Run PSQL scripts
+4. Run add_products.py
+5. Run __init__.py
+6. Send API calls to http://localhost:5000/v1/
 
 # LANGUAGES
 
