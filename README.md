@@ -42,7 +42,7 @@ SCRIPTS to run:
 3. Run PSQL scripts as POSTGRES user (-u postgres -i)
 4. Clone repository https://github.com/NSPurington/API_Test_Handler (git clone ....)
 5. Run add_products.py (python add_products.py)
-6. Run "__init__.py" (python "__init__.py")
+6. Run __init__.py (python __init__.py) (Include 2 underscores before and after 'init'.  Escaped out in GitHub formatting)
 7. Send API calls to http://localhost:5000/v1/ (using Postman or Curl)
 
 # LANGUAGES
