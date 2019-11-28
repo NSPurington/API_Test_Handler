@@ -18,7 +18,7 @@ URL = http://localhost:5000/v1/
 
 --Python--
 
-1. Python 2.7 (apt-get install python2.7)
+1. Python 2.7 (apt-get install python2.7) **NOTE Python 2.7 libraries will be depreciated on 1/2020
 2. Flask (pip install flask)
 3. SQL Alchemy (pip install sqlalchemy)
 4. Requests (pip install requests)
@@ -37,12 +37,13 @@ SCRIPTS to run:
 
 # TO RUN PROGRAM
 
-1. Download and install software
-2. Start PostgreSQL server
-3. Run PSQL scripts
-4. Run add_products.py
-5. Run __init__.py
-6. Send API calls to http://localhost:5000/v1/
+1. Download and install software (Outlined above)
+2. Start PostgreSQL server (pg_ctlcluster 12 main start)
+3. Run PSQL scripts as POSTGRES user (-u postgres -i)
+4. Clone repository https://github.com/NSPurington/API_Test_Handler (git clone ....)
+5. Run add_products.py (python add_products.py)
+6. Run "__init__.py" (python "__init__.py")
+7. Send API calls to http://localhost:5000/v1/ (using Postman or Curl)
 
 # LANGUAGES
 
