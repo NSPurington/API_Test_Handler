@@ -26,7 +26,7 @@ session.add(product1)
 session.commit()
 
 #Second product
-product2 = Product(name = "Personalized cufflinks", price = "45.00")
+product2 = Product(name = "Personalised cufflinks", price = "45.00")
 
 session.add(product2)
 session.commit()
