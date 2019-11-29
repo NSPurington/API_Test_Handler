@@ -32,7 +32,7 @@ def pageTest():
 @app.route('/v1/products', methods=['GET'])
 def productsJSON():
     items = session.query(Product).all()
-    return jsonify(items=[i.serialize for i in items])
+    return jsonify([i.serialize for i in items])
 
 
 # Serialized Product Information for specific products
